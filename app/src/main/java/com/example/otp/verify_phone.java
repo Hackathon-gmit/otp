@@ -35,7 +35,7 @@ public class verify_phone extends AppCompatActivity {
         setContentView(R.layout.verify_phone);
 
         mAuth=FirebaseAuth.getInstance();
-        progressBar=findViewById(R.id.progressbar);
+        progressBar=findViewById(R.id.progressBar);
         entercode=findViewById(R.id.entercode);
 
         String phonenumber = getIntent().getStringExtra("phonenumber");
